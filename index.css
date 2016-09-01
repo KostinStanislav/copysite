@@ -26,17 +26,24 @@ nav{position:absolute;
     text-align: right;
     padding:10px 10px 10px 10px;
     
+    
 }
 nav a {
-    font-size: 14px;
+    background-color: white;
+    font-size: 20px;
     font-family: Verdana;
     border: 3px solid black;
-    padding-right: 4px
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }  
 a{
     font-weight: bold;
     color:black;
     text-decoration: none;
+}
+nav a:hover{
+    background-color: yellow;
 }
 
 #logo{
@@ -142,6 +149,7 @@ video{
     border-radius: 20px;
     height: 250px;
     margin:0 20px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .pis{
     float:left;
@@ -168,6 +176,7 @@ video{
     border-radius: 20px;
     margin:0 20px;
     height: 250px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 #born{
     float:left;
@@ -190,61 +199,25 @@ figure{
 figure img{
     border-radius:20px;
     height: 200px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 #aandh{
     height:780px;
     background-color: #EEE9E9;
 }
-                    /*Article- Section Hobbies*/
-                    /*Article- Section contact*/
-                    
-                    /*Article- Section contact ends here*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-    text-align: center;
-     font-size: 30px;
-    font-weight: bold;
-
-}
-
-.cursive{
-    font-family: inherit;
-}
-.cop{
-    width:400px;
-    height:300px;
-}
-
-
-
 #hob{
     clear:both;
     float: right;
+    text-align: right;
+    margin-right:500px;
 }
-p{
-    font-size:22px;
-    font-family: sans-serif;
+                    /*Article- Section Hobbies*/
+                    /*Article- Section contact*/
+#contact{
+    height:400px;
+    clear: both;
+     background-color: #EEDD82;
 }
-
-
-
-
-
-
 #form{
     float: left;
     margin-left: 100px;
@@ -254,17 +227,24 @@ p{
     float: right;
     margin-right: 200px;
 }
+                    /*Article- Section contact ends here*/
+
 footer{
     clear: both;
 }
-#contact{
-    height:400px;
-    clear: both;
-     background-color: #EEDD82;
+
+
+h1 {
+    text-align: center;
+     font-size: 30px;
+    font-weight: bold;
 }
-#hob{
-    text-align: right;
-    margin-right:500px;
+p{
+    font-size:22px;
+    font-family: sans-serif;
 }
+
+
+
 
 
