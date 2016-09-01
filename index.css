@@ -1,0 +1,274 @@
+body{
+    width:1200px;
+    margin:auto;
+    
+}
+                    /*Header*/
+header{
+    position:relative;
+    background-image:url(pics/aviation_bg.jpg);
+    background-size: cover;
+    height:600px;
+}
+
+#up{
+    position: fixed;
+    width:50px;
+    bottom: 50px;
+    right:50px;
+    z-index: +1;
+    opacity: 0.7;
+}
+nav{position:absolute;
+    right:10px;
+    top:10px;
+    width:700px;
+    text-align: right;
+    padding:10px 10px 10px 10px;
+    
+}
+nav a {
+    font-size: 14px;
+    font-family: Verdana;
+    border: 3px solid black;
+    padding-right: 4px
+}  
+a{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+#logo{
+    position:absolute;
+    left:500px;
+    top:150px;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#anc{
+   position:absolute;
+   bottom:10px;
+  font-size: 25px;  
+}
+  @-webkit-keyframes rotating {
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.prop{
+    position:absolute;
+    width:100px;
+   animation: rotating 2s linear infinite;
+}
+#rightprop{
+    margin: 250px 0px 0px 700px;
+}
+#leftprop{
+    margin: 250px 0px 0px 400px;
+}
+#uksatse{
+    position: absolute;
+  left:20px;
+  top:20px;
+}
+#intro{
+    position: absolute;
+    margin:400px 0px 0px 350px;
+    text-align: center;
+    font-size:40px;
+    font-family: Arial;
+    
+}
+#av{
+    margin-left:20px;
+}
+#na{
+    margin-left: 460px;
+}
+#co{
+    margin-left:385px ;
+}
+                    /*Header ends here*/
+                    /*Section Video*/
+#video{
+     background-color: #F7D7F3;
+    height: 550px;
+}
+video{
+    width:900px;
+    margin-left:150px;
+}
+                    /*Section Video ends here*/
+
+
+
+
+                     /*Article- Section who*/
+#who,#characteristics{
+    background-color: #ADD8E6;
+}
+.comparisson{
+    font-family: cursive;
+    font-size: 22px;
+    width:400px;
+    height:500px;
+    float:left;
+    padding:0px 100px 0px 100px;
+}
+.cursive{
+    font-family: inherit;
+}
+.cop{
+    width:400px;
+    height:300px;
+}
+
+                      /*Article- Section who ends here*/
+                        /*Article- Section characteristics*/
+.leftp,.rightp{
+    height:250px;
+     line-height: 250px;
+}
+.pis,.ris{
+    position: relative;
+    border-radius: 20%;
+    height: 250px;
+    margin:0 20px;
+}
+.pis{
+    float:left;
+}
+.ris{
+    float: right;
+}
+.text{
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+                    /*Article- Section characteristics ends here*/
+                    /*Article- Section about*/
+#about{
+    background-color: #FFF0F5;
+    height:600px;
+}
+#about div{
+    height: 250px;
+}
+#about div img{
+    border-radius: 20%;
+    margin:0 20px;
+    height: 250px;
+}
+#born{
+    float:left;
+}
+#uni{
+    float:right;
+}
+
+                    /*Article- Section about ends here*/
+                    /*Article- Section Hobbies*/
+figure{
+    float:left;
+    width:400px;
+    height:250px;
+    text-align: center;
+    font-size: 30px;
+}
+figure img{
+    border-radius:20px;
+    height: 200px;
+}
+                    /*Article- Section Hobbies*/
+                    /*Article- Section contact*/
+                    
+                    /*Article- Section contact ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+     font-size: 30px;
+    font-weight: bold;
+}
+
+.cursive{
+    font-family: inherit;
+}
+.cop{
+    width:400px;
+    height:300px;
+}
+
+
+
+#hob{
+    clear:both;
+    float: right;
+}
+p{
+    font-size:22px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+#form{
+    float: left;
+    margin-left: 100px;
+}
+#social{
+     background-color: #EEDD82;
+    float: right;
+    margin-right: 200px;
+}
+footer{
+    clear: both;
+}
+#contact{
+    height:400px;
+    clear: both;
+     background-color: #EEDD82;
+}
+#hob{
+    text-align: right;
+    margin-right:500px;
+}
+
+
+
+
+
+#aandh{
+    height:760px;
+    background-color: #EEE9E9;
+}
+
+
+   
+
+.cuks{
+    width: 100px;
+}
