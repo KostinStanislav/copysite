@@ -76,6 +76,9 @@ a{
   left:20px;
   top:20px;
 }
+#uksatse a img{
+    width: 100px;
+}
 #intro{
     position: absolute;
     margin:400px 0px 0px 350px;
@@ -97,7 +100,7 @@ a{
                     /*Section Video*/
 #video{
      background-color: #F7D7F3;
-    height: 550px;
+    height: 580px;
 }
 video{
     width:900px;
@@ -136,7 +139,7 @@ video{
 }
 .pis,.ris{
     position: relative;
-    border-radius: 20%;
+    border-radius: 20px;
     height: 250px;
     margin:0 20px;
 }
@@ -156,13 +159,13 @@ video{
                     /*Article- Section about*/
 #about{
     background-color: #FFF0F5;
-    height:600px;
+    height:630px;
 }
 #about div{
     height: 250px;
 }
 #about div img{
-    border-radius: 20%;
+    border-radius: 20px;
     margin:0 20px;
     height: 250px;
 }
@@ -172,7 +175,9 @@ video{
 #uni{
     float:right;
 }
-
+#invite{
+   margin-top:20px;
+}
                     /*Article- Section about ends here*/
                     /*Article- Section Hobbies*/
 figure{
@@ -185,6 +190,10 @@ figure{
 figure img{
     border-radius:20px;
     height: 200px;
+}
+#aandh{
+    height:780px;
+    background-color: #EEE9E9;
 }
                     /*Article- Section Hobbies*/
                     /*Article- Section contact*/
@@ -209,6 +218,7 @@ h1 {
     text-align: center;
      font-size: 30px;
     font-weight: bold;
+
 }
 
 .cursive{
@@ -258,17 +268,3 @@ footer{
 }
 
 
-
-
-
-#aandh{
-    height:760px;
-    background-color: #EEE9E9;
-}
-
-
-   
-
-.cuks{
-    width: 100px;
-}
