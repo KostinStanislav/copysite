@@ -1,5 +1,5 @@
 body{
-    width:1200px;
+    width:400px;
     margin:auto;
     
 }
@@ -8,27 +8,26 @@ header{
     position:relative;
     background-image:url(pics/aviation_bg.jpg);
     background-size: cover;
-    height:600px;
+    height:400px;
 }
 
 #up{
     position: fixed;
-    width:50px;
-    bottom: 50px;
-    right:50px;
+    width:40px;
+    bottom: 20px;
+    right:20px;
     z-index: +1;
     opacity: 0.7;
 }
 nav{position:absolute;
     right:10px;
     top:10px;
-    width:700px;
+    width:30%;
     text-align: right;
     padding:10px 10px 10px 10px;
-    
-    
 }
 nav a {
+    display:none;
     background-color: white;
     font-size: 20px;
     font-family: Verdana;
@@ -48,14 +47,15 @@ nav a:hover{
 
 #logo{
     position:absolute;
-    left:500px;
+    left:120px;
     top:150px;
-    width:200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
     border-radius: 50%;
 }
 #anc{
    position:absolute;
+   display:none;
    bottom:10px;
   font-size: 25px;  
 }
@@ -69,6 +69,7 @@ nav a:hover{
 }
 .prop{
     position:absolute;
+    display:none;
     width:100px;
    animation: rotating 2s linear infinite;
 }
@@ -88,9 +89,9 @@ nav a:hover{
 }
 #intro{
     position: absolute;
-    margin:400px 0px 0px 350px;
+    margin:300px 0px 0px 20px;
     text-align: center;
-    font-size:40px;
+    font-size:30px;
     font-family: Arial;
     
 }
@@ -106,6 +107,7 @@ nav a:hover{
                     /*Header ends here*/
                     /*Section Video*/
 #video{
+    display: none;
      background-color: #F7D7F3;
     height: 580px;
 }
@@ -119,19 +121,16 @@ video{
 
 
                      /*Article- Section who*/
- #char13{
-     width: 1200px;
- }
 #who,#characteristics{
     background-color: #ADD8E6;
 }
 .comparisson{
     font-family: cursive;
     font-size: 22px;
-    width:400px;
+    width:100%;
     height:500px;
     float:left;
-    padding:0px 100px 0px 100px;
+    padding:0px 0px 0px 0px;
 }
 .cursive{
     font-family: inherit;
@@ -143,14 +142,17 @@ video{
 
                       /*Article- Section who ends here*/
                         /*Article- Section characteristics*/
+#char13{
+    width: 100%;
+}
 .leftp,.rightp{
-    height:250px;
-     line-height: 250px;
+    height:150px;
+     line-height:50px;
 }
 .pis,.ris{
     position: relative;
     border-radius: 20px;
-    height: 250px;
+    height:80px;
     margin:0 20px;
     box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -173,9 +175,10 @@ video{
     height:630px;
 }
 #about div{
-    height: 250px;
+    height:250px;
 }
 #about div img{
+    display: none;
     border-radius: 20px;
     margin:0 20px;
     height: 250px;
@@ -188,20 +191,20 @@ video{
     float:right;
 }
 #invite{
-   margin-top:20px;
+   font-size: 22px
 }
                     /*Article- Section about ends here*/
                     /*Article- Section Hobbies*/
 figure{
     float:left;
-    width:400px;
-    height:250px;
+    width:200px;
+    height:200px;
     text-align: center;
     font-size: 30px;
 }
 figure img{
     border-radius:20px;
-    height: 200px;
+    height: 100px;
     box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 #aandh{
@@ -212,33 +215,34 @@ figure img{
     clear:both;
     float: right;
     text-align: right;
-    margin-right:500px;
+    margin-right:10px;
 }
 #hob p img{
-    width:200px;
+    width:100px;
+    border-radius: 20px
 }
                     /*Article- Section Hobbies*/
                     /*Article- Section contact*/
 #contact{
-    height:400px;
+    height:300px;
     clear: both;
      background-color: #EEDD82;
 }
 #form{
     float: left;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 #social{
      background-color: #EEDD82;
     float: right;
-    margin-right: 200px;
+    margin-right: 10px;
 }
 #message{
-    width: 400px;
-    height: 200px
+    width: 200px;
+    height: 100px
 }
 #social a img{
-    width:100px;
+    width:65px;
 }
                     /*Article- Section contact ends here*/
 
@@ -253,11 +257,6 @@ h1 {
     font-weight: bold;
 }
 p{
-    font-size:22px;
+    font-size:15px;
     font-family: sans-serif;
 }
-
-
-
-
-
