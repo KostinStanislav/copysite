@@ -47,6 +47,7 @@ nav a:hover{
 
 #logo{
     position:absolute;
+    display: none;
     left:120px;
     top:150px;
     width:150px;
@@ -93,6 +94,8 @@ nav a:hover{
     text-align: center;
     font-size:30px;
     font-family: Arial;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     
 }
 #av{
@@ -104,6 +107,14 @@ nav a:hover{
 #co{
     margin-left:385px ;
 }
+#plane{
+    top:-40px;
+    position: absolute;
+    top:150px;
+    z-index: +1;
+    width: 400px;
+}
+
                     /*Header ends here*/
                     /*Section Video*/
 #video{
@@ -178,7 +189,6 @@ video{
     height:250px;
 }
 #about div img{
-    display: none;
     border-radius: 20px;
     margin:0 20px;
     height: 250px;
@@ -189,6 +199,7 @@ video{
 }
 #uni{
     float:right;
+    display: none;
 }
 #invite{
    font-size: 22px

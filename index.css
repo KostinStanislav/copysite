@@ -20,6 +20,7 @@ header{
     opacity: 0.7;
 }
 nav{position:absolute;
+    z-index: +1;
     right:10px;
     top:10px;
     width:700px;
@@ -48,11 +49,13 @@ nav a:hover{
 
 #logo{
     position:absolute;
-    left:500px;
-    top:150px;
-    width:200px;
-    height: 200px;
+    opacity: 0;
+    left:525px;
+    top:205px;
+    width:150px;
+    height: 150px;
     border-radius: 50%;
+    z-index: +1;
 }
 #anc{
    position:absolute;
@@ -69,17 +72,23 @@ nav a:hover{
 }
 .prop{
     position:absolute;
-    width:100px;
-   animation: rotating 2s linear infinite;
+    z-index: +1;
+    width:80px;
+    border-radius: 50%;
+    border:2px solid black;
+    
 }
 #rightprop{
-    margin: 250px 0px 0px 700px;
+    margin: 280px 0px 0px 730px;
+    animation: rotating 0.5s reverse linear infinite;
 }
 #leftprop{
-    margin: 250px 0px 0px 400px;
+    margin: 280px 0px 0px 389px;
+    animation: rotating 0.5s linear infinite;
 }
 #uksatse{
     position: absolute;
+    z-index: +1;
   left:20px;
   top:20px;
 }
@@ -92,6 +101,8 @@ nav a:hover{
     text-align: center;
     font-size:40px;
     font-family: Arial;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     
 }
 #av{
@@ -103,10 +114,18 @@ nav a:hover{
 #co{
     margin-left:385px ;
 }
+#plane{
+    
+    top:-40px;
+    position: absolute;
+    z-index: 0;
+    width: 1200px;
+}
+
                     /*Header ends here*/
                     /*Section Video*/
 #video{
-     background-color: #F7D7F3;
+     background-color: #FAEEDD;
     height: 580px;
 }
 video{
@@ -146,6 +165,9 @@ video{
 .leftp,.rightp{
     height:250px;
      line-height: 250px;
+}
+.rightp{
+    background-color: #78DBE2;
 }
 .pis,.ris{
     position: relative;
@@ -251,6 +273,7 @@ h1 {
     text-align: center;
      font-size: 30px;
     font-weight: bold;
+    
 }
 p{
     font-size:22px;
@@ -258,6 +281,35 @@ p{
 }
 
 
+.flash{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    top: 250px;
+}
+#flashleft{
+    
+    left:40px;
+}
+#flashright{
+    
+    right:40px;
+}
 
 
+.flashr{
+        background: #FF6347;
+        
+    }
 
+  #flashright{
+        transition: background 0.0s ease-in-out;
+    }
+    .flashl{
+        background: #00FF7F;
+    }
+
+  #flashleft{
+        transition: background 0.0s ease-in-out;
+    }
