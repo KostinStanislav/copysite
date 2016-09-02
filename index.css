@@ -81,11 +81,11 @@ nav a:hover{
 }
 #rightprop{
     margin: 280px 0px 0px 730px;
-    animation: rotating 0.01s reverse linear infinite;
+    animation: rotating 0.1s reverse linear infinite;
 }
 #leftprop{
     margin: 280px 0px 0px 389px;
-    animation: rotating 0.01s linear infinite;
+    animation: rotating 0.1s linear infinite;
 }
 #uksatse{
     position: absolute;
