@@ -37,6 +37,7 @@ nav a {
     border-radius: 10px;
     padding: 4px;
     box-shadow:2px 2px 4px rgba(0, 0, 0, 0.7);
+ 
 }  
 a{
     font-weight: bold;
@@ -49,7 +50,7 @@ nav a:hover{
 
 #logo{
     position:absolute;
-    opacity: 0;
+    display: none;
     left:525px;
     top:205px;
     width:150px;
@@ -312,4 +313,11 @@ p{
 
   #flashleft{
         transition: background 0.0s ease-in-out;
+    }
+    
+   .pis:hover,.ris:hover,#about div img:hover,figure img:hover,#hob p img:hover,.cop:hover{
+        transform: scale(2,2);
+    }
+    header,#video,#about,#aandh,#contact{
+            box-shadow: inset 0px 0px 100px black;
     }
