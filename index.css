@@ -319,5 +319,9 @@ p{
         transform: scale(2,2);
     }
     header,#video,#about,#aandh,#contact{
-            box-shadow: inset 0px 0px 100px black;
+            box-shadow: inset 0px 0px 50px black;
+    }
+    
+    #univer p,#aandh p{
+        margin-left: 20px;
     }
