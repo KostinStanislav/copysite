@@ -14,7 +14,7 @@ var backgroundInterval = setInterval(function(){
 function sendForm(e) {
     e.preventDefault();
     $.ajax({
-        url: "https://formspree.io/tigrarion@mail.ru",
+        url: "//formspree.io/tigrarion@mail.ru",
         method: "POST",
         data: {
             name:$('#name').val(),

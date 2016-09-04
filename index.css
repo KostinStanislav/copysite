@@ -325,3 +325,10 @@ p{
     #univer p,#aandh p{
         margin-left: 20px;
     }
+#btn{
+    border-radius: 5px;
+    font-size: 25px;
+}
+#logosend{
+    width: 50px;
+}

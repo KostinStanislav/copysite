@@ -271,3 +271,10 @@ p{
     font-size:15px;
     font-family: sans-serif;
 }
+#btn{
+    border-radius: 5px;
+    font-size: 15px;
+}
+#logosend{
+    width: 10px;
+}
