@@ -327,8 +327,16 @@ p{
     }
 #btn{
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 50px;
 }
 #logosend{
     width: 50px;
+}
+EMBED{
+    position:absolute;
+    z-index: +1;
+    left:100px;
+}
+#weather{
+   display:none;
 }

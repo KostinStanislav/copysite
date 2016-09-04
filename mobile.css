@@ -278,3 +278,9 @@ p{
 #logosend{
     width: 10px;
 }
+#weather{
+   position: absolute;
+   top: 50px;
+   right: 30px;
+   
+}
