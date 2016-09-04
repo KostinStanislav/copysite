@@ -6,3 +6,24 @@ var backgroundInterval = setInterval(function(){
 var backgroundInterval = setInterval(function(){
     $div2blinkleft.toggleClass("flashl");
  },500)
+ 
+ $(function() {
+    $('#btn').click(sendForm);
+});
+
+function sendForm(e) {
+    e.preventDefault();
+    $.ajax({
+        url: "https://formspree.io/tigrarion@mail.ru",
+        method: "POST",
+        data: {
+            name:$('#name').val(),
+            email:$('#email').val(),
+            message:$('#message').val()
+        },
+        dataType: "json",
+        success: function(){
+            $('#thanks').html('Success!Thank you for contacting us!');
+        }
+    });
+}
