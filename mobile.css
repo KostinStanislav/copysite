@@ -19,14 +19,17 @@ header{
     z-index: +1;
     opacity: 0.7;
 }
-nav{position:absolute;
+nav {
+    position:fixed;
     right:10px;
     top:10px;
     width:30%;
     text-align: right;
     padding:10px 10px 10px 10px;
+    z-index: +2
 }
-nav a {
+
+nav{
     display:none;
     background-color: white;
     font-size: 20px;
@@ -45,41 +48,19 @@ nav a:hover{
     background-color: yellow;
 }
 
-#logo{
-    position:absolute;
-    display: none;
-    left:120px;
-    top:150px;
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-}
+
 #anc{
    position:absolute;
    display:none;
-   bottom:10px;
-  font-size: 25px;  
+   
 }
-  @-webkit-keyframes rotating {
-    from{
-       transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
+  
 .prop{
     position:absolute;
     display:none;
-    width:100px;
-   animation: rotating 2s linear infinite;
+    
 }
-#rightprop{
-    margin: 250px 0px 0px 700px;
-}
-#leftprop{
-    margin: 250px 0px 0px 400px;
-}
+
 #uksatse{
     position: absolute;
   left:20px;
@@ -98,15 +79,7 @@ nav a:hover{
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     
 }
-#av{
-    margin-left:20px;
-}
-#na{
-    margin-left: 460px;
-}
-#co{
-    margin-left:385px ;
-}
+
 #plane{
     top:-40px;
     position: absolute;
@@ -119,13 +92,9 @@ nav a:hover{
                     /*Section Video*/
 #video{
     display: none;
-     background-color: #F7D7F3;
-    height: 580px;
+
 }
-video{
-    width:900px;
-    margin-left:150px;
-}
+
                     /*Section Video ends here*/
 
 
@@ -203,6 +172,9 @@ video{
 }
 #invite{
    font-size: 22px
+}
+#about div p,#aandh div p,figcaption,h1{
+    font-family: 'Slabo 27px', serif;
 }
                     /*Article- Section about ends here*/
                     /*Article- Section Hobbies*/
@@ -283,4 +255,7 @@ p{
    top: 50px;
    right: 30px;
    
+}
+#videoclouds{
+    display: none;
 }

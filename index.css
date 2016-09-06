@@ -52,16 +52,7 @@ nav a:hover{
     box-shadow: 2px 2px 4px #CDC9C9;
 }
 
-#logo{
-    position:absolute;
-    display: none;
-    left:525px;
-    top:205px;
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-    z-index: +1;
-}
+
 #anc{
    position:absolute;
    bottom:10px;
@@ -121,7 +112,7 @@ nav a:hover{
     margin-left:385px ;
 }
 #plane{
-   
+  
     top:35px;
     position: absolute;
     z-index: 0;
