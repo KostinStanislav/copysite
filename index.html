@@ -6,18 +6,21 @@
         <link  rel="stylesheet" href="reset.css">
         <link   media='all and (max-width: 719px)' rel="stylesheet" href="mobile.css">
         <link   media='all and (min-width: 720px)' rel="stylesheet" href="index.css">
-        
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     </head>
     <body>
         <header id="header">
+            <video src="pics/reversed.mp4" autoplay="autoplay"  id="videoclouds" loop="loop" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video>
             <div id="weather"><a href="http://weather.i.ua/Lvov/" target="_blank" ><img src="http://f.i.ua/ip2_c11301_l2.png" alt="Погода в Lvov" border="0"></a></div>
             <a href="#header"><img src="pics/up.png" alt="up" id="up"/></a>
-            <nav>
-                <a href="#header"><b>Home</b></a>
-                <a href="#who"><b>ATC?</b></a>
-                <a href="#about"><b>About me</b></a>
-                <a href="#aandh"><b>My hobby</b></a>
-                <a href="#contact"><b>Contact me</b></a>
+            <nav id="nav">
+                <ul>
+                <li><a href="#header"><b>Home</b></a></li>
+                <li><a href="#who"><b>ATC?</b></a></li>
+                <li><a href="#about"><b>About me</b></a></li>
+                <li><a href="#aandh"><b>My hobby</b></a></li>
+                <li><a href="#contact"><b>Contact me</b></a></li>
+                </ul>
             </nav>
             
             <div id="uksatse" ><a href="http://uksatse.ua/"  target="_blank"><img src="pics/uksatse.png" alt="up"/></a></div>
@@ -137,7 +140,7 @@
                     <input type="text" name="email" id="email" required><br>
                     <label for="message">Message</label><br>
                     <textarea name="message" id="message"></textarea>
-                    <button id="btn">Send<img src="pics/send2.png" alt="picture" id="logosend"></button>
+                    <button id="btn">Send<img src="pics/send3.png" alt="picture" id="logosend"></button>
                     </form>
                     <p id="thanks"></p>
                 </div>

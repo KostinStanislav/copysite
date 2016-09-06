@@ -1,3 +1,4 @@
+//flashlights
 var $div2blinkright = $("#flashright"); // Save reference, only look this item up once, then save
 var backgroundInterval = setInterval(function(){
     $div2blinkright.toggleClass("flashr");
@@ -6,7 +7,7 @@ var backgroundInterval = setInterval(function(){
 var backgroundInterval = setInterval(function(){
     $div2blinkleft.toggleClass("flashl");
  },500)
- 
+ //Form
  $(function() {
     $('#btn').click(sendForm);
 });
@@ -27,3 +28,14 @@ function sendForm(e) {
         }
     });
 }
+//Moving 
+$(document).ready(function(){
+    $("#nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+
+    });
+});
+
