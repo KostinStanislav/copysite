@@ -352,3 +352,9 @@ EMBED{
     z-index: auto;
     margin-left: 0px;
 }
+
+.dropbtn{
+    display: none;
+}
+
+
